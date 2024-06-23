@@ -2,6 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="purple_disable">#33BB86FC</color>
-    <color name="purple_enable">#AA47BC</color>
+    <color name="light_purple_disable">#BA9AC2</color>
+    <color name="plum_enable">#854964</color>
+    <color name="purple_button">#7D5798</color>
 </resources>
