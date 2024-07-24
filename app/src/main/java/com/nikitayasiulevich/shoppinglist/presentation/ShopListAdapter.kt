@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.ListAdapter
 import com.nikitayasiulevich.shoppinglist.R
 import com.nikitayasiulevich.shoppinglist.domain.ShopItem
 
-class ShopListAdapter : ListAdapter<ShopItem, ShopItemViewHolder>(ShopItemDiifCallback()) {
+class ShopListAdapter : ListAdapter<ShopItem, ShopItemViewHolder>(ShopItemDiffCallback()) {
 
     var onShopItemLongClickListener: ((ShopItem) -> Unit)? = null
     var onShopItemClickListener: ((ShopItem) -> Unit)? = null
